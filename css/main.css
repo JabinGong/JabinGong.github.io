@@ -65,15 +65,34 @@ main {
 
 main p {
   padding-left: 10px;
+  color: dimgrey;
 }
 
 a {
-  color: gray;
+  color: grey;
   text-decoration: none;
 }
 
 a:hover {
   font-weight: 600;
+}
+
+.portraits {
+  width: 150px;
+}
+
+.bio {
+  display: flex;
+  align-self: flex-start;
+}
+
+.bio img {
+  align-self: center;
+}
+
+.bio a {
+  text-decoration: underline;
+  color: blue;
 }
 
 /*
