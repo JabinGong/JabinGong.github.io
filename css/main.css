@@ -42,6 +42,7 @@ navbar * {
 wrapper {
   display: block;
   width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -66,7 +67,7 @@ sidenav img {
 main {
   display: block;
   float: right;
-  width: 500px;
+  width: 65%;
 }
 
 main p {
@@ -353,10 +354,12 @@ textarea {
   wrapper {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   sidenav {
     position: static;
     text-align: left;
+    padding: 0 0 0 20%
   }
   sidenav img {
     margin: 0;
