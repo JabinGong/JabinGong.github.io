@@ -68,6 +68,7 @@ main {
   display: block;
   float: right;
   width: 65%;
+  max-width: 100%;
 }
 
 main p {
@@ -137,6 +138,11 @@ hr {
   min-width: 400px;
   width: 75%;
   margin: 2vh auto;
+}
+
+
+.hr-mobile {
+  display: none;
 }
 
 /*
@@ -355,14 +361,25 @@ textarea {
     display: flex;
     flex-direction: column;
     text-align: center;
+    max-width: 100%;
   }
   sidenav {
     position: static;
-    text-align: left;
-    padding: 0 0 0 20%
+    text-align: center;
+    margin: 10px 0 0 0;
   }
   sidenav img {
-    margin: 0;
+    margin: 0 auto;
+  }
+  sidenav::after {
+    content: 
+  }
+  main {
+    width: 100%;
+  }
+  .hr-mobile {
+    display: block;
   }
 }
+
 
