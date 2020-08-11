@@ -343,3 +343,17 @@ textarea {
   }
 }
 
+@media screen and (max-width: 750px) {
+  wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  sidenav {
+    position: static;
+    text-align: left;
+  }
+  sidenav img {
+    margin: 0;
+  }
+}
+
