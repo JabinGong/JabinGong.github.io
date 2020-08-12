@@ -1,5 +1,4 @@
-/*global document, require*/
-var fs = require('fs');
+/*global document*/
 
 function generatePub(pic, authors, title, journal, date, link) {
   var parent = document.getElementById("publications");
@@ -31,15 +30,6 @@ function generatePub(pic, authors, title, journal, date, link) {
   parent.appendChild(document.createElement("hr"));
 }
 
-
-//var text = require("./uroc.txt");
-//var text = fs.readFileSync('./uroc.txt', "utf-8");
-//var lines = text.split("\n");
-//lines.forEach(function (line) {
-//  var details = line.split("/");
-//  generatePub("1.png", details[0], details[1], details[3]);
-//});
 generatePub("1.png", "Jabin Gong.", "text", "JACS", "2020",  "https://google.com");
 generatePub("1.png", "Jabin Gong.", "text", "JACS", "2020",  "https://google.com");
 generatePub("1.png", "Jabin Gong.", "text", "JACS", "2020",  "https://google.com");
-
