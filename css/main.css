@@ -29,6 +29,10 @@ header {
   padding-top: 10%;
 }
 
+header h1 {
+  width: 150px;
+}
+
 navbar {
   display: block;
   text-align: center;
@@ -359,6 +363,14 @@ textarea {
 }
 
 @media screen and (max-width: 750px) {
+  header {
+    display: block;
+  }
+  
+  header h1 {
+    width: 100%;
+  }
+  
   wrapper {
     display: flex;
     flex-direction: column;
