@@ -33,6 +33,7 @@ navbar {
   display: block;
   text-align: center;
   font-size: 25px;
+  text-transform: lowercase;
 }
 
 navbar * {
@@ -53,6 +54,7 @@ sidenav {
   text-align: center;
   font-size: 20px;
   margin: 40px 0 0 30px;
+  text-transform: lowercase;
 }
 
 sidenav * {
