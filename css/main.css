@@ -97,7 +97,9 @@ a:hover {
 
 .bio {
   display: flex;
-  align-self: flex-start;
+  align-items: center;
+  max-width: 90%;
+  padding-bottom: 10px;
 }
 
 .bio img {
