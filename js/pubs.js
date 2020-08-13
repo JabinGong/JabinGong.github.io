@@ -25,6 +25,10 @@ function generatePub(pic, authors, title, journal, date, link) {
   parent.appendChild(document.createElement("hr"));
 }
 
+var header = document.createElement("h1");
+header.innerHTML = "Selected Publications";
+document.getElementById("publications").appendChild(header);
+
 generatePub("1.png", "Tang, Q.; Zhong, Y. L.; Miller, D. P.; Liu, R.; Eva Zurek, E.; Lu, Z. L.; Gong, B", "Reverse Turn Foldamers: An expanded β-turn motif reinforced by double hydrogen bonds", "Org. Lett.", "2020",  "https://pubs.acs.org/doi/10.1021/acs.orglett.9b04547");
 
 generatePub("2.png", "Wang, Q. H.; Zhong, Y. L.; Miller, D. P.; Lu, X. X.; Tang, Q.; Lu, Z. L.; Zurek, E.; Liu, R.; Gong, B", "Self-assembly and molecular recognition in water: Tubular stacking and guest-templated discrete assembly of water-soluble, shape-persistent macrocycles", "J. Am. Chem. Soc.", "2020", "https://pubs.acs.org/doi/abs/10.1021/jacs.9b11536");
