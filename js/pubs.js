@@ -11,11 +11,6 @@ function generatePub(pic, authors, title, journal, date, link) {
   var portrait = document.createElement('img');
   portrait.setAttribute("src", "img/" + pic);
   portrait.setAttribute("class", "portraits");
-//  var authors = "Jabin Gong";
-//  var title = "Research Paper";
-//  var journal = "JACS";
-//  var date = "August 2020";
-//  var link = "https://google.com";
   var hyperlink = document.createElement("a");
   hyperlink.innerHTML = "[journal link]";
   hyperlink.setAttribute("href", link);
