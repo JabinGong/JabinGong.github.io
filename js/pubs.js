@@ -29,6 +29,8 @@ var header = document.createElement("h1");
 header.innerHTML = "Selected Publications";
 document.getElementById("publications").appendChild(header);
 
+generatePub("11.png", "Zhong, Y. L.; Kauffmann, B.; Xu, W. W.; Lu, Z. L.; Ferand, Y.; Huc, I.; Zeng, X. C.; Liu, R.; Gong, B", "Multiturn Hollow Helices: Synthesis and Folding of Long Aromatic Oligoamides", "Org. Lett.", "2020", "https://pubs.acs.org/doi/10.1021/acs.orglett.0c02481");
+
 generatePub("1.png", "Tang, Q.; Zhong, Y. L.; Miller, D. P.; Liu, R.; Eva Zurek, E.; Lu, Z. L.; Gong, B", "Reverse Turn Foldamers: An expanded β-turn motif reinforced by double hydrogen bonds", "Org. Lett.", "2020",  "https://pubs.acs.org/doi/10.1021/acs.orglett.9b04547");
 
 generatePub("2.png", "Wang, Q. H.; Zhong, Y. L.; Miller, D. P.; Lu, X. X.; Tang, Q.; Lu, Z. L.; Zurek, E.; Liu, R.; Gong, B", "Self-assembly and molecular recognition in water: Tubular stacking and guest-templated discrete assembly of water-soluble, shape-persistent macrocycles", "J. Am. Chem. Soc.", "2020", "https://pubs.acs.org/doi/abs/10.1021/jacs.9b11536");
@@ -48,3 +50,34 @@ generatePub("8.png", "Hu, T.; Connor, A. L.; Miller, D. P.; Wang, X.; Pei, Q.; L
 generatePub("9.png", "Li, X. W.; Yuan, X. Y.; Deng, P. C.; Chen, L. X.; Ren, Y.; Wang, C. Y.; Wu, L. X.; Feng, W.; Gong, B.; Yuan, L. H", "Macrocyclic shape-persistency of cyclo[6]aramide results in enhanced multipoint recognition for highly efficient template-directed synthesis of rotaxanes", "Chem. Sci.", "2017",  "https://pubs.rsc.org/en/content/articlelanding/2017/sc/c6sc04714a#!divAbstract");
 
 generatePub("10.png", "Connor, A. L.; Hu, T.; Detchou, C. S. F.; Liu, R.; Pulavarti, S. V. S. R. K.; Szyperski, T.; Lu, Z. L.; Gong, B", "Aromatic Oligoureas as Hosts for Anions and Cations. Chem. Commun", "J. Am. Chem. Soc.", "2016",  "https://pubs.rsc.org/en/content/articlelanding/2016/cc/c6cc03681c#!divAbstract");
+
+//-----------------
+generatePub("ja-2015-12698w_0009.png","Wei, X. X.; Zhang, G. Q.; Shen, Y.; Zhong, Y. L.; Liu, R.; Yang, N.; Al-mkhaizim, F. Y.; Kline, M.; He, L.; Li, M. F.; Lu, Z. L.; Shao, Z. F.; Gong, B","Persistent Organic Nanopores Amenable to Structural and Functional Tuning","J. Am. Chem. Soc.","2016, 138, 2749–2754.","http://pubs.acs.org/doi/abs/10.1021/jacs.5b12698");
+
+generatePub("ImageIdentifier.Year=2016.png","Liu, R.; Cheng, S.; Baker, E. S.; Smith, R. D.; Zeng, X. C.; Gong, B","Surprising impact of remote groups on the folding–unfolding and dimer-chain equilibria of bifunctional H-bonding unimers","Chem. Commun.","2016, 52, 3773-3776.","https://pubs.rsc.org/en/content/articlelanding/2016/cc/c6cc00224b");
+
+generatePub("No_image_available.svg.png","Li, X. W.; Li, B.; Chen, L.; Hu, J. C.; Wen, C. D. Y.; Zheng, Q. D.; Wu, L. X.; Zeng, H. Q.; Gong, B.; Yuan, L. H","Liquid-Crystalline Mesogens Based on Cyclo[6]aramides: Distinctive Phase Transitions in Response to Macrocyclic Host–Guest Interactions","Angew. Chem. Int. Ed.","2015, 54, 11147–11152.","https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201505278");
+
+generatePub("ja-2015-02552f_0004.png","Wu, X. X.; Rui Liu, R.; Sathyamoorthy, B.; Yamato, K.; Liang, G. X.; Shen, L.; Ma, S. F.; Sukumaran, D. K.; Szyperski, T.; Fang, W. H.; He, L.; Chen, X. B.; Gong, B","Discrete Stacking of Aromatic Oligoamide Macrocycles","J. Am. Chem. Soc.","2015, 137, 5879–5882.","https://pubs.acs.org/doi/10.1021/jacs.5b02552");
+
+generatePub("ImageIdentifier.Year=2012.png","Kline, M. A.; Wei, X. X.; Horner, I. J.; Liu, R.; Chen, S.; Chen, S.; Yung, K. Y.; Yamato,K.; Cai, Z. H.; Bright, F. V.; Zeng, X. C.; Gong, B","Extremely Strong Tubular Stacking of Aromatic Oligoamide Macrocycles","Chem. Sci.","2015, 6, 152-157.","http://xlink.rsc.org/?doi=C4SC02380C&newsite=1");
+
+generatePub("ar-2013-00030e_0012.png","Gong, B.; Shao, Z. F","Self-Assembling Organic Nanotubes with Precisely Defined, Sub-nanometer Pores: Formation and Mass Transport Characteristics","Acc. Chem. Res","2013, 46, 2856–2866.","https://pubs.acs.org/doi/10.1021/ar400030e");
+
+generatePub("Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C2CC36391G&imageInfo.ImageIdentifier.Year=.png","Yamato, K.; Kline, M.; Gong, B","Cavity-containing, backbone-rigidified foldamers and macrocycles","Chem. Commun","2012, 48, 12142–12158.","https://pubs.rsc.org/en/content/articlelanding/2012/cc/c2cc36391g");
+
+generatePub("No_image_available.svg.png","Zhou, X. B.; Liu, G. D.; Yamato, K.; Shen, Y.; Cheng, R. X.; Wei, X. X.; Bai, W. L.; Gao, Y.; Li, H.; Liu, Y.; Liu, F. T.; Czajkowsky, D. M.; Wang, J. F.; Dabney, M. J.; Cai, Z. H.; Hu, J.; Bright, F. V.; He, L.; Zeng, X. C.; Shao, Z. F.; Gong, B","Self-Assembling Sub-Nanometer Pores with Unusual Mass-Transporting Properties","Nature Commun.","2012, 3, 949. DOI: 10.1038","https://www.nature.com/articles/ncomms1949");
+
+generatePub("ar-2012-00007k_0013.png","Gong, B","Molecular Duplexes with Encoded Sequences and Stabilities","Acc. Chem. Res","2012, 45, 2077 - 2087.","https://pubs.acs.org/doi/10.1021/ar300007k");
+
+generatePub("ja-2011-08548b_0003.png","Yang, Y. A.; Feng, W.; Hu, J. C.; Zou, S. L.; Gao, R. Z.; Yamato, K.; Kline, M.; Cai, Z. H.; Gao, Y.; Wang, Y. B.; Li, Y. B.; Yang, Y. L.; Yuan, L. H.; Zeng, X. C. Gong, B","Strong Aggregation and Directional Assembly of Aromatic Oligoamide Macrocycles","J. Am. Chem. Soc.","2011, 133, 18590-18593.","https://pubs.acs.org/doi/10.1021/ja208548b");
+
+generatePub("No_image_available.svg.png","Ferguson, J. S.; Yamato, K.; Liu, R.; He, L.; Zeng, X. C.; Gong, B","One-pot Formation of Large Macrocycles with Modifiable Peripheries and Internal Cavities","Angew. Chem., Int. Ed.","2009, 48, 3150-3154.","https://pubmed.ncbi.nlm.nih.gov/19322868/");
+
+generatePub("ja-2008-07935y_0013.png","Feng, W.; Yamato, K.; Yang, L. Q.; Ferguson, J.; Zhong, L.J.; Zou, S. L.; Yuan, L.H.; Zeng, X. C.; Gong, B","Efficient Kinetic Macrocyclization","J. Am. Chem. Soc.","2009, 131, 2629–2637.","https://pubs.acs.org/doi/10.1021/ja807935y");
+
+generatePub("ja-2008-07078y_0004.png","Helsel, A. J.; Brown, A. L.; Yamato, K.; Feng, W.; Yuan, L. H.; Clements, A.; Harding, S. V.; Szabo, G.; Shao, Z. F.; Gong, B","Highly Conducting Transmembrane Pores Formed by Aromatic Oligoamide Macrocycles","J. Am. Chem. Soc.","2008, 130, 15784-15785.","https://pubs.acs.org/doi/10.1021/ja807078y");
+
+generatePub("ja072567mn00001.png","Li, M. F.; Yamato, K.; Ferguson, J. S.; Singarapu, K. K.; Szyperski, T.; Gong, B","Sequence-Specific, Dynamic Covalent Crosslinking in Aqueous Media","J. Am. Chem. Soc.","2008, 130, 491-500.","https://pubs.acs.org/doi/10.1021/ja072567m");
+
+generatePub("ar-2007-00266f_0001.png","Gong, B","Hollow Crescents, Helices and Macrocycles from Enforced Folding and Folding-Assisted Macrocyclization","Acc. Chem. Res","2008, 41, 1376-1386.","https://pubs.acs.org/doi/10.1021/ar700266f");
