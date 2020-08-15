@@ -60,11 +60,11 @@ generatePub("No_image_available.svg.png","Li, X. W.; Li, B.; Chen, L.; Hu, J. C.
 
 generatePub("ja-2015-02552f_0004.png","Wu, X. X.; Rui Liu, R.; Sathyamoorthy, B.; Yamato, K.; Liang, G. X.; Shen, L.; Ma, S. F.; Sukumaran, D. K.; Szyperski, T.; Fang, W. H.; He, L.; Chen, X. B.; Gong, B","Discrete Stacking of Aromatic Oligoamide Macrocycles","J. Am. Chem. Soc.","2015, 137, 5879–5882.","https://pubs.acs.org/doi/10.1021/jacs.5b02552");
 
-generatePub("ImageIdentifier.Year=2012.png","Kline, M. A.; Wei, X. X.; Horner, I. J.; Liu, R.; Chen, S.; Chen, S.; Yung, K. Y.; Yamato,K.; Cai, Z. H.; Bright, F. V.; Zeng, X. C.; Gong, B","Extremely Strong Tubular Stacking of Aromatic Oligoamide Macrocycles","Chem. Sci.","2015, 6, 152-157.","http://xlink.rsc.org/?doi=C4SC02380C&newsite=1");
+generatePub("extremely strong tubular.png","Kline, M. A.; Wei, X. X.; Horner, I. J.; Liu, R.; Chen, S.; Chen, S.; Yung, K. Y.; Yamato,K.; Cai, Z. H.; Bright, F. V.; Zeng, X. C.; Gong, B","Extremely Strong Tubular Stacking of Aromatic Oligoamide Macrocycles","Chem. Sci.","2015, 6, 152-157.","http://xlink.rsc.org/?doi=C4SC02380C&newsite=1");
 
 generatePub("ar-2013-00030e_0012.png","Gong, B.; Shao, Z. F","Self-Assembling Organic Nanotubes with Precisely Defined, Sub-nanometer Pores: Formation and Mass Transport Characteristics","Acc. Chem. Res","2013, 46, 2856–2866.","https://pubs.acs.org/doi/10.1021/ar400030e");
 
-generatePub("Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=C2CC36391G&imageInfo.ImageIdentifier.Year=.png","Yamato, K.; Kline, M.; Gong, B","Cavity-containing, backbone-rigidified foldamers and macrocycles","Chem. Commun","2012, 48, 12142–12158.","https://pubs.rsc.org/en/content/articlelanding/2012/cc/c2cc36391g");
+generatePub("ImageIdentifier.Year=2012.png","Yamato, K.; Kline, M.; Gong, B","Cavity-containing, backbone-rigidified foldamers and macrocycles","Chem. Commun","2012, 48, 12142–12158.","https://pubs.rsc.org/en/content/articlelanding/2012/cc/c2cc36391g");
 
 generatePub("No_image_available.svg.png","Zhou, X. B.; Liu, G. D.; Yamato, K.; Shen, Y.; Cheng, R. X.; Wei, X. X.; Bai, W. L.; Gao, Y.; Li, H.; Liu, Y.; Liu, F. T.; Czajkowsky, D. M.; Wang, J. F.; Dabney, M. J.; Cai, Z. H.; Hu, J.; Bright, F. V.; He, L.; Zeng, X. C.; Shao, Z. F.; Gong, B","Self-Assembling Sub-Nanometer Pores with Unusual Mass-Transporting Properties","Nature Commun.","2012, 3, 949. DOI: 10.1038","https://www.nature.com/articles/ncomms1949");
 
