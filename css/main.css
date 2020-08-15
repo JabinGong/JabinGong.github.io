@@ -413,6 +413,9 @@ textarea {
   .hr-mobile {
     display: block;
   }
+  .bio {
+    margin: 0 auto;
+  }
 }
 
 
