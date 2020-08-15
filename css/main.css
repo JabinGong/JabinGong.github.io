@@ -381,7 +381,7 @@ textarea {
 }
 
 @media screen and (max-width: 920px) {
-  body {
+  html, body {
     overflow-x: hidden;
     max-width: 100%;
   }
