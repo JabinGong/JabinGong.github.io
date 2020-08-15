@@ -15,7 +15,7 @@ function generatePub(pic, authors, title, journal, date, link) {
   hyperlink.innerHTML = "[journal link]";
   hyperlink.setAttribute("href", link);
   hyperlink.setAttribute("target", "_blank");
-  info.innerHTML = authors + ". " + "<em>" + title + "</em>. " + journal + ", " + date;
+  info.innerHTML = authors + ". " + "<em>" + title + ".</em> " + journal + ", " + date;
   info.appendChild(document.createElement("br"));
   info.appendChild(hyperlink);
 
