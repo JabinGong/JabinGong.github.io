@@ -82,6 +82,11 @@ main p {
   color: black;
 }
 
+#research div > p:first-of-type {
+  font-style: italic;
+}
+
+
 figure {
   
 }
