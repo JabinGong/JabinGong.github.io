@@ -88,7 +88,7 @@ main p {
 
 
 figure {
-  
+
 }
 
 figure img {
@@ -390,15 +390,15 @@ textarea {
     overflow-x: hidden;
     max-width: 100%;
   }
-  
+
   header {
     display: block;
   }
-  
+
   header h1 {
     width: 100%;
   }
-  
+
   wrapper {
     display: flex;
     flex-direction: column;
@@ -414,7 +414,7 @@ textarea {
     margin: 0 auto;
   }
   sidenav::after {
-    content: 
+    content:
   }
   main {
     width: 100%;
@@ -433,10 +433,8 @@ textarea {
     max-width: 100%;
     overflow-x: hidden;
   }
-  #publications * {
+  #publications {
     display: block;
     margin: 0 auto;
   }
 }
-
-
