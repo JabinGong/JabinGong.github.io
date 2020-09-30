@@ -29,11 +29,13 @@ var header = document.createElement("h1");
 header.innerHTML = "Selected Publications";
 document.getElementById("publications").appendChild(header);
 
+generatePub("2.png", "Wang, Q. H.; Zhong, Y. L.; Miller, D. P.; Lu, X. X.; Tang, Q.; Lu, Z. L.; Zurek, E.; Liu, R.; Gong, B", "Self-assembly and molecular recognition in water: Tubular stacking and guest-templated discrete assembly of water-soluble, shape-persistent macrocycles", "J. Am. Chem. Soc.", "2020", "142", "2915-2924", "https://pubs.acs.org/doi/abs/10.1021/jacs.9b11536");
+
+// NEW PAPER here
+
 generatePub("11.png", "Zhong, Y. L.; Kauffmann, B.; Xu, W. W.; Lu, Z. L.; Ferand, Y.; Huc, I.; Zeng, X. C.; Liu, R.; Gong, B", "Multiturn Hollow Helices: Synthesis and Folding of Long Aromatic Oligoamides", "Org. Lett.", "2020", "22", "6938-6942", "https://pubs.acs.org/doi/10.1021/acs.orglett.0c02481");
 
 generatePub("1.png", "Tang, Q.; Zhong, Y. L.; Miller, D. P.; Liu, R.; Eva Zurek, E.; Lu, Z. L.; Gong, B", "Reverse Turn Foldamers: An expanded β-turn motif reinforced by double hydrogen bonds", "Org. Lett.", "2020", "22", "1003-1007", "https://pubs.acs.org/doi/10.1021/acs.orglett.9b04547");
-
-generatePub("2.png", "Wang, Q. H.; Zhong, Y. L.; Miller, D. P.; Lu, X. X.; Tang, Q.; Lu, Z. L.; Zurek, E.; Liu, R.; Gong, B", "Self-assembly and molecular recognition in water: Tubular stacking and guest-templated discrete assembly of water-soluble, shape-persistent macrocycles", "J. Am. Chem. Soc.", "2020", "142", "2915-2924", "https://pubs.acs.org/doi/abs/10.1021/jacs.9b11536");
 
 generatePub("3.png", "Zhang, Y. K.; Zhong, Y. L.; Connor, A. L.; Miller, D. P.; Cao, R. K.; Shen, J.; Song, B.; Baker, E. S.; Tang, Q.; Pulavarti, S. V. S. R. K.; Liu, R.; Q. W.; Lu, Z. L.; Szyperski, T.; Zeng, H. Q.; Li, X. P.; Smith, R. D.; Zurek, E.; Zhu, J.; Gong, B", "Folding and assembly of short α, β, γ-hybrid peptides: Minor variations in sequence and drastic differences in higher-level structures", "J. Am. Chem. Soc.", "2019", "141", "14239−14248", "https://pubs.acs.org/doi/10.1021/jacs.9b06094");
 
@@ -49,7 +51,7 @@ generatePub("8.png", "Hu, T.; Connor, A. L.; Miller, D. P.; Wang, X.; Pei, Q.; L
 
 generatePub("9.png", "Li, X. W.; Yuan, X. Y.; Deng, P. C.; Chen, L. X.; Ren, Y.; Wang, C. Y.; Wu, L. X.; Feng, W.; Gong, B.; Yuan, L. H", "Macrocyclic shape-persistency of cyclo[6]aramide results in enhanced multipoint recognition for highly efficient template-directed synthesis of rotaxanes", "Chem. Sci.", "2017", "8", "2091-2100", "https://pubs.rsc.org/en/content/articlelanding/2017/sc/c6sc04714a#!divAbstract");
 
-generatePub("10.png", "Connor, A. L.; Hu, T.; Detchou, C. S. F.; Liu, R.; Pulavarti, S. V. S. R. K.; Szyperski, T.; Lu, Z. L.; Gong, B", "Aromatic Oligoureas as Hosts for Anions and Cations. Chem. Commun", "J. Am. Chem. Soc.", "2016", "52", "9905-9908", "https://pubs.rsc.org/en/content/articlelanding/2016/cc/c6cc03681c#!divAbstract");
+generatePub("10.png", "Connor, A. L.; Hu, T.; Detchou, C. S. F.; Liu, R.; Pulavarti, S. V. S. R. K.; Szyperski, T.; Lu, Z. L.; Gong, B", "Aromatic Oligoureas as Hosts for Anions and Cations", "Chem. Commun.", "2016", "52", "9905-9908", "https://pubs.rsc.org/en/content/articlelanding/2016/cc/c6cc03681c#!divAbstract");
 
 //-----------------
 generatePub("ja-2015-12698w_0009.png","Wei, X. X.; Zhang, G. Q.; Shen, Y.; Zhong, Y. L.; Liu, R.; Yang, N.; Al-mkhaizim, F. Y.; Kline, M.; He, L.; Li, M. F.; Lu, Z. L.; Shao, Z. F.; Gong, B","Persistent Organic Nanopores Amenable to Structural and Functional Tuning","J. Am. Chem. Soc.","2016", "138", "2749–2754", "http://pubs.acs.org/doi/abs/10.1021/jacs.5b12698");
