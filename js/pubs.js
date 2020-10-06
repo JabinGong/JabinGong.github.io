@@ -31,7 +31,9 @@ document.getElementById("publications").appendChild(header);
 
 generatePub("2.png", "Wang, Q. H.; Zhong, Y. L.; Miller, D. P.; Lu, X. X.; Tang, Q.; Lu, Z. L.; Zurek, E.; Liu, R.; Gong, B", "Self-assembly and molecular recognition in water: Tubular stacking and guest-templated discrete assembly of water-soluble, shape-persistent macrocycles", "J. Am. Chem. Soc.", "2020", "142", "2915-2924", "https://pubs.acs.org/doi/abs/10.1021/jacs.9b11536");
 
-// NEW PAPER here
+generatePub("ol0c02696_0008.png", "Cao, R. K.; Rossdeutcher, R. B.; Wu, X. X.; Gong, B", "Oligo(5-amino-N-acylanthranilic acids): Amide Bond Formation without Coupling Reagent and Folding upon Binding Anions", "Org. Lett.", "2020", "22", "7496-7501", "https://pubs.acs.org/doi/10.1021/acs.orglett.0c02696");
+
+generatePub("fchem-08-530083-g001.png", "Zhong, Y. L.; Tang, Q.; Miller, D. P.; Zurek, E. D.; Liu, R.; Lu, Z. L.; Gong, B", "Major Factors for the Persistent Folding of Hybrid α, β, γ-Hybrid Peptides into Hairpins", " Front. Chem.", "2020", "8", "Article 530083. DOI: 10.3389/fchem.2020.530083.", "https://www.frontiersin.org/articles/10.3389/fchem.2020.530083/full");
 
 generatePub("11.png", "Zhong, Y. L.; Kauffmann, B.; Xu, W. W.; Lu, Z. L.; Ferand, Y.; Huc, I.; Zeng, X. C.; Liu, R.; Gong, B", "Multiturn Hollow Helices: Synthesis and Folding of Long Aromatic Oligoamides", "Org. Lett.", "2020", "22", "6938-6942", "https://pubs.acs.org/doi/10.1021/acs.orglett.0c02481");
 
