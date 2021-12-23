@@ -29,6 +29,10 @@ var header = document.createElement("h1");
 header.innerHTML = "Selected Publications";
 document.getElementById("publications").appendChild(header);
 
+generatePub("oc1c.png", "Shen, Y.; Fei, F.; Zhong, Y. L.; Fan, C. H.; Sun, J. L.; Hu, J.; Gong, B.; Czajkowsky, D.; Shao, Z. F.", "Controlling water flow through a synthetic nanopore with permeable cations", "ACS Cent. Sci.", "2021", "7", "2092-2098", "https://pubs.acs.org/doi/10.1021/acscentsci.1c01218");
+
+generatePub("ab1c.png", "Zhong, Y. L.; McGrath, J. K.; Gong B.", "Dipropinonates of sugar alcohols as water-soluble, nontoxic CPAs for DMSO-free cell cryopreservation", "ACS Biomater. Sci. Eng.", "2021", "7", "4757-4762", "https://pubs.acs.org/doi/10.1021/acsbiomaterials.1c00995");
+
 generatePub("Get.jpg", "Sobiech, T. A.; Zhong, Y. L.; Sánchez B., L. S.; Kauffmann, B.; McGrath, J. K.; Scalzo, C.; Miller, D. P.; Huc, I.; Zurek, E.; Ferrand, Y.; Gong, B.", "Stable pseudo[3]rotaxanes with strong positive binding cooperativity based on shape-persistent aromatic oligoamide macrocycles", "Chem Commun.", "2021", "57", "11645-11648", "https://pubs.rsc.org/en/content/articlelanding/2021/cc/d1cc05193h");
 
 generatePub("2.png", "Wang, Q. H.; Zhong, Y. L.; Miller, D. P.; Lu, X. X.; Tang, Q.; Lu, Z. L.; Zurek, E.; Liu, R.; Gong, B", "Self-assembly and molecular recognition in water: Tubular stacking and guest-templated discrete assembly of water-soluble, shape-persistent macrocycles", "J. Am. Chem. Soc.", "2020", "142", "2915-2924", "https://pubs.acs.org/doi/abs/10.1021/jacs.9b11536");
