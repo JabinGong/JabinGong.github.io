@@ -25,9 +25,9 @@ function generatePub(pic, authors, title, journal, date, issue, pages, link) {
   parent.appendChild(document.createElement("hr"));
 }
 
-// var header = document.createElement("h1");
-// header.innerHTML = "Selected Publications";
-// document.getElementById("publications").appendChild(header);
+var header = document.createElement("h1");
+header.innerHTML = "Selected Publications";
+document.getElementById("publications").appendChild(header);
 
 generatePub("Get.jpg", "Sobiech, T. A.; Zhong, Y. L.; Sánchez B., L. S.; Kauffmann, B.; McGrath, J. K.; Scalzo, C.; Miller, D. P.; Huc, I.; Zurek, E.; Ferrand, Y.; Gong, B.", "Stable pseudo[3]rotaxanes with strong positive binding cooperativity based on shape-persistent aromatic oligoamide macrocycles", "Chem Commun.", "2021", "57", "11645-11648", "https://pubs.rsc.org/en/content/articlelanding/2021/cc/d1cc05193h");
 
