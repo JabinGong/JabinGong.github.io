@@ -37,7 +37,6 @@ navbar {
   display: block;
   text-align: center;
   font-size: 25px;
-  text-transform: lowercase;
 }
 
 navbar * {
@@ -58,7 +57,6 @@ sidenav {
   text-align: center;
   font-size: 20px;
   margin: 40px 0 0 30px;
-  text-transform: lowercase;
 }
 
 sidenav * {
@@ -168,7 +166,7 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
-  max-width: 800px;
+  max-width: 1000px;
   min-width: 400px;
   width: 90%;
   margin: 2vh auto;
