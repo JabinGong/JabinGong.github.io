@@ -27,11 +27,36 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css?v=2">
+  <link rel="stylesheet" href="css/main.css?v=2">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
+
+  <style>
+    info {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    p {
+        margin: 0px;
+    }
+    hr {
+        width: 100%;
+    }
+    .biography {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        max-width: 100%;
+    }
+    .biography a {
+        text-decoration: underline;
+        color: blue;
+    }
+  </style>
 </head>
 
 <body>
@@ -50,55 +75,85 @@
     <hr class="hr-mobile">
 
     <main>
-      <h1>People</h1>
+      <h1>Principal Investigator</h1>
 
-      <div class="bio">
-        <img src="img/bing.jpg" class="portraits">
-        <p><strong>Bing Gong</strong></p>
-      </div>
-
-      <h2>Postdocs</h2>
-      <div class="bio">
-        <img src="img/students/YZ.jpg" class="portraits">
-        <p><strong>Yulong Zhong: </strong><a href="mailto:yulongzh@buffalo.edu">yulongzh@buffalo.edu</a></p>
+      <div class="biography">
+        <p style="margin-left: -10px"><strong>Bing Gong<br></strong><a href="mailto:bgong@buffalo.edu">bgong@buffalo.edu</a></p>
+        <info>
+            <img src="img/bing.jpg" class="portraits">
+            <p></p>
+        </info>
       </div>
 
-      <h2>PhD students</h2>
-      <div class="bio">
-        <img src="img/students/RC.jpg" class="portraits">
-        <p><strong>Ruikai Cao: </strong><a href="mailto:ruikaica@buffalo.edu">ruikaica@buffalo.edu</a></p>
-      </div>
-      <div class="bio">
-        <img src="img/students/JM.jpg" class="portraits">
-        <p><strong>Jillian McGrath: </strong><a href="mailto:jkmcgrat@buffalo.edu">jkmcgrat@buffalo.edu</a></p>
-      </div>
-      <div class="bio">
-        <img src="img/students/RR.jpg" class="portraits">
-        <p><strong>Robert Rossdeutcher: </strong><a href="mailto:rbrossde@buffalo.edu">rbrossde@buffalo.edu</a></p>
-      </div>
-      <div class="bio">
-        <img src="img/students/CS.jpg" class="portraits">
-        <p><strong>Christina Scalzo: </strong><a href="mailto:cscalzo@buffalo.edu">cscalzo@buffalo.edu</a></p>
-      </div>
-      <div class="bio">
-        <img src="img/students/TS.jpg" class="portraits">
-        <p><strong>Thomas Sobiech: </strong><a href="mailto:tasobiec@buffalo.edu">tasobiec@buffalo.edu</a></p>
+      <hr>
+
+      <h2>Research Scientist</h2>
+      <div class="biography">
+        <p style="margin-left: -10px"><strong>Yulong Zhong<br></strong><a href="mailto:yulongzh@buffalo.edu">yulongzh@buffalo.edu</a></p>
+        <info>
+            <img src="img/students/YZ.jpg" class="portraits">
+            <p>Yulong Zhong is from Tianjin, China. He received his PhD degree in organic chemistry 
+                from Beijing Normal University, Beijing, China, in 2016. He then joined Dr. Gong’s 
+                group as a postdoctoral associate. As a research scientist, he is currently focusing 
+                on the synthesis and study of multiturn helical aromatic oligoamides as novel hosts 
+                for guest binding and as transmembrane channels for ion and molecular transport.</p>
+        </info>
       </div>
 
-      <h2>Visiting Research Scientist</h2>
-      <div class="bio">
-        <img src="img/students/CD.jpg" class="portraits">
-        <p><strong>Cadnel S. Detchou: </strong><a href="mailto:cadnelsy@buffalo.edu">cadnelsy@buffalo.edu</a></p>
+      <hr>
+
+      <h2>Postdoctoral Fellow</h2>
+      <div class="biography">
+        <p style="margin-left: -10px"><strong>Ruikai Cao<br></strong><a href="mailto:ruikaica@buffalo.edu">ruikaica@buffalo.edu</a></p>
+        <info>
+            <img src="img/students/RC.jpg" class="portraits">
+            <p>Ruikai was born in Baoji, a historical city in China. After obtaining 
+                the BS Degree from Sichuan University in Organic Chemistry and the MS 
+                degree from Kansas State University in Biochemistry, he joined Professor 
+                Bing Gong’s group at the University at Buffalo, SUNY, working on the 
+                host-guest interaction and graduated with a PhD Degree in August in 2021. 
+                After that, he serves as a postdoctoral fellow and continues related research 
+                on supramolecular chemistry at the same group.</p>
+        </info>
       </div>
+
+      <hr>
+
+      <h2>PhD Students</h2>
+      <div class="biography">
+        <p style="margin-left: -10px"><strong>Jillian McGrath<br></strong><a href="mailto:jkmcgrat@buffalo.edu">jkmcgrat@buffalo.edu</a></p>
+        <info>
+            <img src="img/students/JM.jpg" class="portraits">
+            <p>Jillian is from Albany, NY and received her bachelor’s degree in Chemistry 
+                from SUNY Oswego in 2018. She joined Dr. Gong’s lab in 2018 and her 
+                research is focused on the synthesis of small molecules for the purpose 
+                of intracellular cryoprotection of cell lines.</p>
+        </info>
+      </div>
+
+      <div class="biography">
+        <p style="margin-left: -10px"><strong>Christina Scalzo<br></strong><a href="mailto:cscalzo@buffalo.edu">cscalzo@buffalo.edu</a></p>
+        <info>
+            <img src="img/students/CS.jpg" class="portraits">
+            <p>I joined the lab in 2021. I did my undergrad at SUNY Oswego where 
+                I received a chemistry B.S. and two minors, mathematics and geology. 
+                Currently, I work on binding studies between our foldamers and other 
+                molecules using NMR and ITC.  I am excited to continue to learn and grow in our research!</p>
+        </info>
+      </div>
+
+      <div class="biography">
+        <p style="margin-left: -10px"><strong>Victoria Schmidt<br></strong><a href="mailto:vs69@buffalo.edu">vs69@buffalo.edu</a></p>
+        <info>
+            <img src="img/students/VS.jpg" class="portraits">
+            <p>Victoria is a first year PhD student who just joined the Gong Lab. 
+                She is studying Medicinal Chemistry here at the University at Buffalo. 
+                Her research in the Gong Lab is Cytotoxicity and Cryopreservation.</p>
+        </info>
+      </div>
+
     </main>
   </wrapper>
-
-
-
-
-
-
-
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
