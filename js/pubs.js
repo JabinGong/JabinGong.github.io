@@ -29,10 +29,10 @@ var header = document.createElement("h1");
 header.innerHTML = "Selected Publications";
 document.getElementById("publications").appendChild(header);
 
-generatePub("angew22.png", "Thomas A. Sobiech, Yulong Zhong, Daniel P. Miller, \
-    Jillian K. McGrath, Christina T. Scalzo, Morgan C. Redington, Eva Zurek, Bing Gong", 
-    "Ultra-Tight Host-Guest Binding with Exceptionally Strong Positive Cooperativity", 
-    "Angew. Chem. Int. Ed.", "2022", "61", "DOI: 10.1002/anie.202213467", "https://onlinelibrary.wiley.com/doi/10.1002/anie.202213467")
+// generatePub("angew22.png", "Thomas A. Sobiech, Yulong Zhong, Daniel P. Miller, \
+//     Jillian K. McGrath, Christina T. Scalzo, Morgan C. Redington, Eva Zurek, Bing Gong", 
+//     "Ultra-Tight Host-Guest Binding with Exceptionally Strong Positive Cooperativity", 
+//     "Angew. Chem. Int. Ed.", "2022", "61", "DOI: 10.1002/anie.202213467", "https://onlinelibrary.wiley.com/doi/10.1002/anie.202213467")
 
 generatePub("sobiech2022.png", "Sobiech, T. A.; Zhong Y. L.; Gong, B", "Cavity-containing aromatic oligoamide foldamers and macrocycles: progress and future perspectives", "Org. & Biomol. Chem.", "2022", "20", "6962-6978", "https://pubs.rsc.org/en/content/articlelanding/2022/ob/d2ob01467j");
 
