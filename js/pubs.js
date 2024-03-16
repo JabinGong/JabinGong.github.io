@@ -29,10 +29,25 @@ var header = document.createElement("h1");
 header.innerHTML = "Selected Publications";
 document.getElementById("publications").appendChild(header);
 
-generatePub("angew22.png", "Thomas A. Sobiech, Yulong Zhong, Daniel P. Miller, \
-    Jillian K. McGrath, Christina T. Scalzo, Morgan C. Redington, Eva Zurek, Bing Gong", 
+generatePub("nature2023.jpg", "Cao, R. K.; Rossdeutcher, R. B.; Zhong, Y. L.; Shen, Y.; Miller, D. P.; Sobiech, T. A.; Wu, X. X.; Sánchez B., L. S.; Ramcharan, K.; Gutay, M. I.; Figueira, M. F.; Luthra, P.; Zurek, E.; Szyperski, T.; Button, B.; Shao, Z. F.; Gong, B", 
+    "Aromatic pentaamide macrocycles bind anions with high affinity for transport across biomembranes", 
+    "Nature Chem.", "2023", "12", "1559-1568", "https://www.nature.com/articles/s41557-023-01315-w")
+
+generatePub("rigidmacrocycles.jpg", "Gong, B.; Shao, Z. F", 
+    "Rigid macrocycles with multiple hydrogen-bond donors for effective anion binding and transport", 
+    "Nature Chem.", "2023", "12", "1501-1502", "https://doi.org/10.1038/s41557-023-01316-9")
+
+generatePub("wiley2023.jpg", "Wu, C. Y.; Su, S. L.; Zhang, X.; Liu, R.; Gong, B.; Lu, Z. L", 
+    "Covalently linked hexakis(m-phenylene ethynylene) macrocycles as molecular nanotubes", 
+    "Angew. Chem. Int. Ed.", "2023", "62", "e202303242", "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202303242")
+
+generatePub("chemsci2023.jpeg", "Zhong, Y. L.; Sobiech, T. A.; Kauffmann, B.; Song, B.; Li, X. P.; Ferrand, Y.; Huc, I.; Gong, B", 
+    "High-affinity single and double helical pseudofoldaxanes with cationic guests", 
+    "Chem. Sci.", "2023", "14", "4759-4768", "https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc00524k")
+
+generatePub("angew22.png", "Sobiech, T. A.; Zhong, Y. L.; Miller, D. P.; McGrath, J. K.; Scalzo, C. T.; Redington, M. C.; Zurek, E.; Gong, B", 
     "Ultra-Tight Host-Guest Binding with Exceptionally Strong Positive Cooperativity", 
-    "Angew. Chem. Int. Ed.", "2022", "61", "DOI: 10.1002/anie.202213467", "https://onlinelibrary.wiley.com/doi/10.1002/anie.202213467")
+    "Angew. Chem. Int. Ed.", "2022", "61", "e202213467", "https://onlinelibrary.wiley.com/doi/10.1002/anie.202213467")
 
 generatePub("sobiech2022.png", "Sobiech, T. A.; Zhong Y. L.; Gong, B", "Cavity-containing aromatic oligoamide foldamers and macrocycles: progress and future perspectives", "Org. & Biomol. Chem.", "2022", "20", "6962-6978", "https://pubs.rsc.org/en/content/articlelanding/2022/ob/d2ob01467j");
 
